@@ -3,4 +3,4 @@ numpy
 statsmodels
 streamlit
 altair
-pickle
+
