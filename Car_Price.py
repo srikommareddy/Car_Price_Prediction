@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
  
 # loading the trained model
-pickle_in = open('car_price.pkl', 'rb') 
+pickle_in = open('car_price.sav', 'rb') 
 classifier = pickle.load(pickle_in)
 
 age = st.sidebar.number_input('Age')
